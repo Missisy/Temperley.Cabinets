@@ -1,0 +1,122 @@
+.seccion{
+
+    width: $seccion-envio;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    
+    .seccion_pagoenvio{
+        width: $seccion-envio/2;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+
+               
+
+        .seccion_pagoenvio_medios{
+
+                       
+            padding-top: 15px;
+            padding-left: 25px;
+            width: 450px;
+            height: auto;
+            margin: auto;
+            
+
+            .seccion_envio_medios_cajita{
+                
+                width: 350px;
+                height: auto;
+                margin: auto;
+                
+                
+            }
+
+        }
+
+        .seccion_pagoenvio_paises{
+            height: auto;
+            width: auto;
+            padding-top: 60px;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+
+        }
+        
+    }
+}
+
+label{
+    width: 300px;
+}
+
+input{
+    height: 26px;
+}
+
+.dropdowni{
+    height: auto;
+    width: 148px;
+}
+
+// MOBILE PAGO-ENVIO
+
+@media (max-width:599px){
+
+    .seccion{
+
+        width: $seccion-envio;
+        height: auto;
+        margin: auto;
+        display: block;
+        
+        .seccion_pagoenvio{
+            width: $seccion-envio/2;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+    
+                   
+    
+            .seccion_pagoenvio_medios{
+    
+                           
+                padding-top: 15px;
+                padding-left: 25px;
+                width: 450px;
+                height: auto;
+                margin: auto;
+                
+    
+                .seccion_envio_medios_cajita{
+                    
+                    width: 350px;
+                    height: auto;
+                    margin: auto;
+                    
+                    
+                }
+    
+            }
+    
+            .seccion_pagoenvio_paises{
+                height: auto;
+                width: auto;
+                padding-top: 60px;
+                margin: auto;
+                display: flex;
+                flex-direction: row;
+    
+            }
+            
+        }
+    }
+    
+
+}

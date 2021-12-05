@@ -1,0 +1,37 @@
+
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .productos_cajita{
+
+        width: $productos-ancho/3;
+        height: 500px;
+        margin: 20px 20px 20px 20px ;
+        transition: all 1s ease-in-out; 
+
+
+        .productos_cajita_card{
+            width: 300px;
+            height: 400px;
+
+            .productos_cajita_card_cuerpo{
+                width: 300px;
+                height: 400px;
+                padding: 10px 10px 10px 10px;
+            }
+        }
+
+        .productos_cajita_img{
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+    .productos_cajita:hover{
+        transform: scale(1.2, 1.2);
+    }
+}
+
